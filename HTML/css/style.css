@@ -1,0 +1,261 @@
+body
+{
+	background:url(../images/bg-body.png) repeat-x top left #3f3f3f;
+	padding:0;
+	margin:0;
+	text-align:center;
+
+font-family: Verdana, Geneva, sans-serif;
+
+	color:#333;
+}
+
+a
+{
+	color:#b50202;
+	text-decoration:underline;
+}
+
+#outer
+{
+	width:1010px;
+	margin:40px auto;
+	overflow:hidden;
+	position:relative;
+}
+
+#constant-call
+{
+	position:fixed;
+	background:#b50202;
+	width:500px;
+	overflow:hidden;
+	margin:-20px 0 0 37%;
+	border-top:1px solid #ec4d4d;
+	border-bottom:1px solid #000;
+	z-index:1000;
+}
+
+#wrapper-header
+{
+	height:16px;
+	background:url(../images/bg-wrapper-top.png) no-repeat top center;
+}
+
+#wrapper
+{
+	overflow:hidden;
+	background:url(../images/bg-wrapper.png) repeat-y center center;
+	margin:0;
+}
+
+#wrapper-footer
+{
+	height:16px;
+	background:url(../images/bg-wrapper-bottom.png) no-repeat bottom center;
+	clear:both;
+}
+
+#wrapper-shadow
+{
+	height:60px;
+	width:1010px;
+	background:url(../images/bg-page-shadow.png) no-repeat top center;
+}
+
+#wrapper #content
+{
+	width:970px;
+	border:1px solid #e5e5e5;
+	background:url(../images/bg-content.png) repeat-x top left #f5f5f5;
+	margin:10px auto;
+	padding-top:50px;
+}
+
+#wrapper #content h1
+{
+	font-size:3.5em;
+	background:url(../images/bg-headline.png) repeat-x top left #fff;
+	padding:20px;
+	border-top:1px solid #e5e5e5;
+	color:#000;
+}
+
+#wrapper #content h2
+{
+	font-size:1.5em;
+	color:#999;
+	background:url(../images/bg-aside.png) repeat-x top left;
+	height:84px;
+	text-align:center;
+	padding-top:1.25em;
+}
+
+#wrapper #content .left h3
+{
+	border-bottom:1px solid #eaeaea;
+	font-size:1.25em;
+	padding-bottom:4px;
+	width:90%;
+	margin:5px auto;
+}
+
+#breaking
+{
+	margin:60px 0 -50px;
+	text-align:center;
+	overflow:hidden;
+	z-index:100;
+	position:relative;
+}
+
+#breaking h4
+{
+
+	color:#fff;
+	width:450px;
+	height: 141px;
+	font-size:1.45em;
+	padding:10px 0;
+	margin:0px auto;
+	background:url(../images/logo-yack.png) no-repeat bottom center #fff;
+}
+#breaking h4 span
+{
+display:none;
+}
+
+#frmconstant h3
+{
+	font-size:1.55em;
+	color:#fff;
+	margin:4px auto;
+}
+
+#frmconstant h4
+{
+	font-size:1.25em;
+	color:#fff;
+	margin:12px auto;
+}
+
+#frmconstant #constantemail
+{
+	border:2px solid #990000;
+	height:30px;
+	margin:0;
+	width:350px;
+}
+
+#frmconstant #constantsubmit
+{
+	border:2px solid #990000;
+	background:url(../images/bg-button-constant.png) repeat-x top left #000;
+	text-align:center;
+	color:#fff;
+	font-family:'CopseRegular', Times, serif;
+	font-size:1.25em;
+	margin:0;
+	width:350px;
+}
+
+#columns
+{
+	overflow:hidden;
+}
+
+.column
+{
+	width:49%;
+	overflow:hidden;
+}
+
+.column.left
+{
+	float:left;
+	text-align:left;
+}
+
+.column.right
+{
+	float:right;
+}
+
+.column.left ol
+{
+	padding:0 20px;
+	margin:10px 30px;
+}
+
+.column.left ol li p
+{
+	color:#999;
+}
+
+.column.right form
+{
+	background:#fff;
+	border:1px solid #d7d7d7;
+	padding:10px;
+	margin:10px 10px 10px 0;
+}
+
+.column.right form fieldset
+{
+	background:url(../images/bg-form.png) repeat-x top left #b50202;
+	border:1px solid #660000;
+	padding:10px;
+}
+
+.column.right form fieldset h3
+{
+	font-size:1.75em;
+	color:#fff;
+}
+
+.column.right form fieldset #txtemail
+{
+	height:40px;
+	border:2px solid #990000;
+	width:350px;
+	font-size:1.25em;
+	padding-top:8px;
+}
+
+.column.right form fieldset #btnsubmit
+{
+	height:40px;
+	border:2px solid #990000;
+	width:350px;
+	background:url(../images/bg-button-constant.png) repeat-x top left #000;
+	text-align:center;
+	color:#fff;
+	font-family:'CopseRegular', Times, serif;
+	font-size:1.25em;
+}
+
+.column.right form fieldset .disclosure
+{
+	border-top:1px solid #990000;
+	width:350px;
+	color:#fff;
+	text-align:left;
+	margin:15px auto;
+	padding:15px 0;
+}
+
+.note
+{
+	background:url(../images/ico-note.png) no-repeat top left;
+	padding:5px 40px 20px 60px;
+	text-align:left;
+	color:#999;
+}
+
+@font-face
+{
+	font-family:'CopseRegular';
+	src:url('../fonts/Copse-Regular-webfont.eot?iefix') format('eot'), url('../fonts/Copse-Regular-webfont.woff') format('woff'), url('../fonts/Copse-Regular-webfont.ttf') format('truetype'), url('../fonts/Copse-Regular-webfont.svg#webfontWKqJmDgH') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
